@@ -1,10 +1,10 @@
 {
-  "NAME": "airbnb-style1",
+  "name": "airbnb-style",
   "version": "2.1.0",
-  "description": "Empty",
+  "description": "A reasonable and reliable approach to JavaScript.",
   "scripts": {
     "preinstall": "npm run install:config  npm run install:config:base",
-    "postnatal": "rm -rf node_modules/markdownlint-cli/node_modules/markdownlint",
+    "postinstall": "rm -rf node_modules/markdownlint-cli/node_modules/markdownlint",
     "install:config": "cd packages/eslint-config-airbnb && npm prune && npm install",
     "install:config:base": "cd packages/eslint-config-airbnb-base && npm prune && npm install",
     "lint": "markdownlint --config linters/.markdownlint.json README.md */README.md",
