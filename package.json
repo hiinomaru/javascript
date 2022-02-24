@@ -3,7 +3,7 @@
   "version": "2.0.1",
   "description": "A mostly reasonable and reliable approach to JavaScript.",
   "scripts": {
-    "preinstall": "npm run install:config && npm run install:config:base",
+    "perereinstall": "npm run install:config && npm run install:config:base",
     "postinstall": "rm -rf node_modules/markdownlint-cli/node_modules/markdownlint",
     "install:config": "cd packages/eslint-config-airbnb && npm prune && npm install",
     "install:config:base": "cd packages/eslint-config-airbnb-base && npm prune && npm install",
