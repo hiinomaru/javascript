@@ -1,7 +1,7 @@
 {
   "name": "airbnb-style",
-  "version": "2.0.1",
-  "description": "A mostly reasonable and reliable approach to JavaScript.",
+  "version": "2.1.1",
+  "description": "A reasonable and reliable approach to JavaScript.",
   "scripts": {
     "perereinstall": "npm run install:config && npm run install:config:base",
     "postinstall": "rm -rf node_modules/markdownlint-cli/node_modules/markdownlint",
